@@ -1,0 +1,4 @@
+# Preserve release fingerprints and the original Windows line endings.
+* -text whitespace=cr-at-eol
+licenses/** -whitespace
+*.exe binary

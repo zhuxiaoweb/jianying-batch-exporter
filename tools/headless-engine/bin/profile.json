@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "engine_version": "11.6.0.14552",
+  "tool_sha256": "93e9547a7f8050f5a7dc092bd8df710c9e7a235f304b0267c9435d0198c37165",
+  "upstream_commit": "4f705a972da3f042a79dabc8b778e95d31af0a0f",
+  "modifications": [
+    "Require exact engine fingerprint before DLL load",
+    "Fail actual decryption errors",
+    "Preserve existing output",
+    "Require finalized MP4",
+    "Initialize caption engine settings",
+    "Initialize session-local pinned effect-mask script runtime when requested; 11.6 config offset 0x998"
+  ],
+  "model_roundtrip_sha256": "37f9414aef1c927aac4c63a4beba2cc094cbacbdaf43ddf878e7fbebd6cb9426",
+  "effect_mask_runtime_tree_sha256": "07214b002e53deef19c97b7a6c74f128b3f99212073828acb966d85b26716bd6"
+}
